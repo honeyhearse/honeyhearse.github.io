@@ -10,7 +10,7 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import myFile from "./assets/bagdanKhairallahResume.pdf";
+import myFile from "../assets/bagdanKhairallahResume.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -22,7 +22,7 @@ const Navbar = () => {
         <h1 className=' font-thin text-2xl italic font-serif'>Bagdan Khairallah</h1>
       </div>
       {/* menu */}
-      <ul className='hidden md:flex gap-x-8'>
+      <ul  className='hidden md:flex gap-x-8'>
         <li>
           <Link to='home' smooth={true} duration={500}>
             Home
