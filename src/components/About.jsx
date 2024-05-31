@@ -20,18 +20,19 @@ const About = () => {
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
             <div className="sm:text-right text-4xl font-bold">
               <p>
-                Hi. I'm Taminoturoko Briggs, nice to meet you. Please take a
+                Hi. I'm Bagdan Khairallah, nice to meet you. Please take a
                 look around.
               </p>
             </div>
             <div>
               <p>
                 {" "}
-                A software developer with experience in building Responsive and
-                Scalable Web apps. I am well-knowledged in UI/UX principles and
-                practices. In addition to software development, I am also a
-                technical writer--simplifying topics/concepts on the web.
-              </p>
+
+                As a fresh graduate working in IT with extensive knowledge in system administration,
+                I enjoy engaging in front-end development projects and am enthusiastic about 
+                expanding my expertise by delving into both cybersecurity and UI/UX design.
+
+                </p>
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import me from '../assets/me.png';
+import me from '../assets/pfp.jpg';
 import { Link } from "react-scroll"; 
 
 const Home = () => {
@@ -12,12 +12,13 @@ const Home = () => {
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
       <div className="flex flex-col justify-center h-full">
         <h2 className="text-4xl sm:text-7xl font-bold text-white">
-          I'm a Full Stack Web Developer
+          &lt; I'm an IT Administrator &
+          Front-End Web Developer /&gt;
         </h2>
         <p className="text-gray-500 py-4 max-w-md">
-           I have 4 years of experience in graphics design and web development.
-          Currently, I love to work on web application using technologies like
-          React, Tailwind, Next.js and Mongodb.
+
+          I have 2 years of experience in IT, complemented by my passion for programming, which I pursue in my spare time.
+        Currently, I specialize in IT and further hone my skills through side projects focused on React-based front-end web development.
         </p>
         <div>
           <Link
